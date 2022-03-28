@@ -16,7 +16,7 @@ func (s *Server) ListenAndServe() error {
 	s.fileRoot = "/../pkg/webserver/docs"
 	fmt.Println("fileRoot = ", s.fileRoot)
 	http.HandleFunc("/", s.HandleRequest)
-	err := http.ListenAndServe(":3000", nil)
+	err := http.ListenAndServe(":80", nil)
 	if err != nil {
 		return err
 	}
