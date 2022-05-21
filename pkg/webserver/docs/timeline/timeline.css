@@ -72,9 +72,9 @@ length of timeline
     top: 50%;
     transform: translateY(-50%);
     background-color: #2C3E50;
-    width: 10vw;
+    width: 20vw;
     height: 5px;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .input::before {
